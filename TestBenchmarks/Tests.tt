@@ -1,0 +1,21 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ output extension=".cs" #>
+namespace TestBenchmarks
+{
+    using Xunit;
+
+    public class Tests
+    {
+<#
+    for (int i = 0; i < 1000; i++)
+    { #>
+        [Fact]
+        public void Test<#= i #>()
+        {
+            Assert.Equal(<#= i #>, <#= i #>);
+        }
+
+<#  } #>
+    }
+}
