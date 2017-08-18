@@ -1,0 +1,21 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ output extension=".cs" #>
+namespace TestBenchmarks
+{
+    using NUnit.Framework;
+
+    public class Tests
+    {
+<#
+    for (int i = 0; i < 1000; i++)
+    { #>
+        [Test]
+        public void Test<#= i #>()
+        {
+            Assert.AreEqual(<#= i #>, <#= i #>);
+        }
+
+<#  } #>
+    }
+}
