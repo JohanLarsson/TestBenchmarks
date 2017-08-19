@@ -1,7 +1,7 @@
 # TestBenchmarks
 Comparing NUnit &amp; xunit.
 
-Using the Resharper runner & 10 000 tests:
+Using the Resharper runner with 10 000 tests:
 
 NUnit:
 
@@ -11,5 +11,5 @@ xunit:
 
 ![xunit](https://user-images.githubusercontent.com/1640096/29479318-b729554a-8471-11e7-90fc-1b50e849297d.png)
 
-With xunit there was a bug in the runner setting the time to a small value. The xunit picture is taken around 9 800 tests.
+With xunit there was a bug in the runner setting the time to a small value on completion of the suite. The xunit picture is taken around 9 800 tests.
 Discovery felt slower using xunit. To be updated.
