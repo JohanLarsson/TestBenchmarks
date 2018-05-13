@@ -1,28 +1,37 @@
 # TestBenchmarks
-Comparing NUnit &amp; xunit.
+Comparing NUnit &amp; xunit. Each run is 10 000 tests with a trivial assert.
 
-## VS15.3 with Resharper Ultimate 2017.1.3:
+<table>
+  <tr>
+    <td>Total time</td>
+    <td><a href="https://www.nuget.org/packages/NUnit/3.10.1">NUnit</a></td>
+    <td><a href="https://www.nuget.org/packages/xunit/2.3.1">xunit</a></td>
+  </tr>
+  <tr>
+    <td>Visual studio runner</td>
+    <td><a href="https://user-images.githubusercontent.com/1640096/39966263-1b430cb0-56a9-11e8-9917-c9aa8b5ed1b8.gif">18.4 s</a></td>
+    <td><a href="https://user-images.githubusercontent.com/1640096/39966274-57c66984-56a9-11e8-8818-0515e68f2d42.gif">42.0 s</a></td>
+  </tr>
+  <tr>
+    <td>Resharper runner</td>
+    <td><a href="https://user-images.githubusercontent.com/1640096/39966289-8ab128c0-56a9-11e8-9718-828d5f557223.gif">53.6 s</a></td>
+    <td><a href="https://user-images.githubusercontent.com/1640096/39966295-b5fb89d0-56a9-11e8-85bc-a24b4bfc31ad.gif">61.6 s</a></td>
+  </tr>
+  <tr>
+    <td>Rider</td>
+    <td><a href="https://user-images.githubusercontent.com/1640096/39966305-ee1cb2a8-56a9-11e8-9e9e-06927cf505ac.gif">48.6 s</a></td>
+    <td><a href="https://user-images.githubusercontent.com/1640096/39966313-0c775064-56aa-11e8-88d3-d3cec499c431.gif">64 s</a></td>
+  </tr>  
+<table>
 
-### NUnit:
+The times in the table link to a screen recording of the run.
 
-![nunit](https://user-images.githubusercontent.com/1640096/29479299-a0d1d524-8471-11e7-87c7-c3d0dc1b7ecf.png)
+## How the benchmarks were run
+1. Git clean
+2. Open the editor and let it resolve references.
+3. Set Release|AnyCPU
+4. Start recording using [ScreenToGif](http://www.screentogif.com/) and test run.
 
-### xunit:
-
-![xunit](https://user-images.githubusercontent.com/1640096/29479318-b729554a-8471-11e7-90fc-1b50e849297d.png)
-
-With xunit there was a bug in the runner setting the time to a small value on completion of the suite. The xunit picture is taken around 9 800 tests.
-Discovery felt slower using xunit. To be updated.
-
-## Rider 2017.1.1 EAP
-
-Build #RD-171.4456.2661, built on August 17, 2017
-
-### NUnit:
-
-![nunit](https://user-images.githubusercontent.com/873919/29487645-953681a8-8505-11e7-87cd-7eea01fcc978.png)
-
-### xunit:
-
-![xunit](https://user-images.githubusercontent.com/873919/29487643-84c3d21c-8505-11e7-837e-c30238557286.png)
+### Hardware
+Intel Xeon CPU E5-2637 v4 3.50GHz, 2 CPU, 16 logical and 8 physical cores
 
