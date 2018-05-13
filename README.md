@@ -43,17 +43,11 @@ The times in the table link to a screen recording of the run.
 
 ### Environment
 
-Visual Studio Enterprise 15.7.1
-
-JetBrains Resharper Ultimate 2018.1
-
-NUnit 3.10.1
-
-NUnit 3 Test Adapter 3.10.0.0
-
-xunit 2.3.1
-
-Rider 2018.1
-
-Intel Xeon CPU E5-2637 v4 3.50GHz, 2 CPU, 16 logical and 8 physical cores
+- Visual Studio Enterprise 15.7.1
+- JetBrains Resharper Ultimate 2018.1
+- NUnit 3.10.1
+- NUnit 3 Test Adapter 3.10.0.0
+- xunit 2.3.1
+- Rider 2018.1
+- Intel Xeon CPU E5-2637 v4 3.50GHz, 2 CPU, 16 logical and 8 physical cores
 
