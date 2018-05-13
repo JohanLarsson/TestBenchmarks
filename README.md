@@ -35,17 +35,25 @@ Comparing NUnit &amp; xunit. Each run is 10 000 tests with a trivial assert.
 The times in the table link to a screen recording of the run.
 
 ## How the benchmarks were run
+
 1. Git clean
 2. Open the editor and let it resolve references.
 3. Set Release|AnyCPU
 4. Start recording using [ScreenToGif](http://www.screentogif.com/) and start test run.
 
 ### Environment
+
 Visual Studio Enterprise 15.7.1
+
 JetBrains Resharper Ultimate 2018.1
+
 NUnit 3.10.1
+
 NUnit 3 Test Adapter 3.10.0.0
+
 xunit 2.3.1
+
 Rider 2018.1
+
 Intel Xeon CPU E5-2637 v4 3.50GHz, 2 CPU, 16 logical and 8 physical cores
 
