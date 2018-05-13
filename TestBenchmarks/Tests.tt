@@ -5,10 +5,10 @@ namespace TestBenchmarks
 {
     using Xunit;
 
-    public class Tests
+    public class XunitTests
     {
 <#
-    for (int i = 0; i < 1000; i++)
+    for (int i = 0; i < 10000; i++)
     { #>
         [Fact]
         public void Test<#= i #>()
