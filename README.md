@@ -32,7 +32,7 @@ Comparing NUnit &amp; xunit. Each run is 10 000 tests with a trivial assert.
   </tr>    
 <table>
 
-The times in the table link to a screen recording of the run.
+The times in the table link to a screenrecording of the run.
 
 ## How the benchmarks were run
 
