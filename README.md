@@ -1,6 +1,9 @@
 # TestBenchmarks
 Comparing NUnit &amp; xunit. Each run is 10 000 tests with a trivial assert.
 
+[![xunit](https://ci.appveyor.com/api/projects/status/2xikxwbm422fxys9/branch/XUnit?svg=true)](https://ci.appveyor.com/project/JohanLarsson/testbenchmarks/branch/XUnit)
+[![NUnit](https://ci.appveyor.com/api/projects/status/2xikxwbm422fxys9/branch/NUnit?svg=true)](https://ci.appveyor.com/project/JohanLarsson/testbenchmarks/branch/NUnit)
+
 <table>
   <tr>
     <td>Total time</td>
@@ -21,7 +24,12 @@ Comparing NUnit &amp; xunit. Each run is 10 000 tests with a trivial assert.
     <td>Rider</td>
     <td><a href="https://user-images.githubusercontent.com/1640096/39966305-ee1cb2a8-56a9-11e8-9e9e-06927cf505ac.gif">48.6 s</a></td>
     <td><a href="https://user-images.githubusercontent.com/1640096/39966313-0c775064-56aa-11e8-88d3-d3cec499c431.gif">64 s</a></td>
-  </tr>  
+  </tr>
+  <tr>
+    <td>AppVeyor</td>
+    <td><a href="https://ci.appveyor.com/project/JohanLarsson/testbenchmarks/build/1.0.7">6 min 13 s</a></td>
+    <td><a href="https://ci.appveyor.com/project/JohanLarsson/testbenchmarks/build/1.0.6">4 min 22 s</a></td>
+  </tr>    
 <table>
 
 The times in the table link to a screen recording of the run.
