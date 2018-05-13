@@ -30,7 +30,7 @@ The times in the table link to a screen recording of the run.
 1. Git clean
 2. Open the editor and let it resolve references.
 3. Set Release|AnyCPU
-4. Start recording using [ScreenToGif](http://www.screentogif.com/) and test run.
+4. Start recording using [ScreenToGif](http://www.screentogif.com/) and start test run.
 
 ### Hardware
 Intel Xeon CPU E5-2637 v4 3.50GHz, 2 CPU, 16 logical and 8 physical cores
